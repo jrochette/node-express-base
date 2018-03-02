@@ -1,0 +1,14 @@
+{
+    "rules": {
+        "import/no-commonjs": "off",
+        "import/no-nodejs-modules": "off"
+    },
+    "extends": [
+      "recommended/node",
+      "recommended/node/style-guide"
+    ],
+    "env": {
+        "node": true,
+        "mocha": true
+    }
+}
